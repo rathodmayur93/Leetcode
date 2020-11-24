@@ -425,6 +425,7 @@ struct ArrayMain {
     
     func findShortestSubArray(){
         let nums = [1,2,2,3,1]
-        FindShortestSubArray().findShortestSubArray(nums)
+        let nums2 = [1,2,2,3,1,4,2]
+        FindShortestSubArray().findShortestSubArray(nums2)
     }
 }
