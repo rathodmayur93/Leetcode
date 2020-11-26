@@ -34,6 +34,8 @@
 		774ECFB0252221A40072BD4D /* RemoveDublicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774ECFAF252221A40072BD4D /* RemoveDublicate.swift */; };
 		775D67DA2546F61100742729 /* AverageSalary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67D92546F61100742729 /* AverageSalary.swift */; };
 		775D67DE2546F8A800742729 /* CommonCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67DD2546F8A800742729 /* CommonCharacter.swift */; };
+		775D96F8256EFE1C0031386A /* FIndKthPositive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D96F7256EFE1C0031386A /* FIndKthPositive.swift */; };
+		775D96FB256F05760031386A /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D96FA256F05760031386A /* TicTacToe.swift */; };
 		775FA6732527408E00CC2A5F /* SquaresOfSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775FA6722527408E00CC2A5F /* SquaresOfSortedArray.swift */; };
 		776124772551FE32007A33A6 /* Shift2DGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776124762551FE32007A33A6 /* Shift2DGrid.swift */; };
 		77672D97253EDAED00894AD2 /* NumberOfStudentDoingHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77672D96253EDAED00894AD2 /* NumberOfStudentDoingHomework.swift */; };
@@ -48,6 +50,7 @@
 		77918F8625290BE900447555 /* HeightChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77918F8525290BE900447555 /* HeightChecker.swift */; };
 		77952F822520606B0064C51C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77952F812520606B0064C51C /* main.swift */; };
 		77952F892520829F0064C51C /* ValidMountainArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77952F882520829F0064C51C /* ValidMountainArray.swift */; };
+		7795880D256EB78000C132CA /* PascalTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795880C256EB78000C132CA /* PascalTriangle.swift */; };
 		779648FB253F6D180075C3D6 /* IntegerSumUpToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779648FA253F6D180075C3D6 /* IntegerSumUpToZero.swift */; };
 		77964900253F71100075C3D6 /* CountNegativeNumberInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779648FF253F71100075C3D6 /* CountNegativeNumberInArray.swift */; };
 		77964903254001370075C3D6 /* DiscountPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77964902254001370075C3D6 /* DiscountPrice.swift */; };
@@ -124,6 +127,8 @@
 		774ECFAF252221A40072BD4D /* RemoveDublicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDublicate.swift; sourceTree = "<group>"; };
 		775D67D92546F61100742729 /* AverageSalary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageSalary.swift; sourceTree = "<group>"; };
 		775D67DD2546F8A800742729 /* CommonCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCharacter.swift; sourceTree = "<group>"; };
+		775D96F7256EFE1C0031386A /* FIndKthPositive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIndKthPositive.swift; sourceTree = "<group>"; };
+		775D96FA256F05760031386A /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
 		775FA6722527408E00CC2A5F /* SquaresOfSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfSortedArray.swift; sourceTree = "<group>"; };
 		776124762551FE32007A33A6 /* Shift2DGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shift2DGrid.swift; sourceTree = "<group>"; };
 		77672D96253EDAED00894AD2 /* NumberOfStudentDoingHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfStudentDoingHomework.swift; sourceTree = "<group>"; };
@@ -139,6 +144,7 @@
 		77952F7E2520606A0064C51C /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		77952F812520606B0064C51C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		77952F882520829F0064C51C /* ValidMountainArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidMountainArray.swift; sourceTree = "<group>"; };
+		7795880C256EB78000C132CA /* PascalTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalTriangle.swift; sourceTree = "<group>"; };
 		779648FA253F6D180075C3D6 /* IntegerSumUpToZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerSumUpToZero.swift; sourceTree = "<group>"; };
 		779648FF253F71100075C3D6 /* CountNegativeNumberInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountNegativeNumberInArray.swift; sourceTree = "<group>"; };
 		77964902254001370075C3D6 /* DiscountPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountPrice.swift; sourceTree = "<group>"; };
@@ -328,6 +334,9 @@
 				77893AAD255D58D600948177 /* TwoSum.swift */,
 				77BF28F3255EE10300B6C2F2 /* DistanceBetweenBusStops.swift */,
 				7714F37D256DB561002ED0EC /* FindShortestSubArray.swift */,
+				7795880C256EB78000C132CA /* PascalTriangle.swift */,
+				775D96F7256EFE1C0031386A /* FIndKthPositive.swift */,
+				775D96FA256F05760031386A /* TicTacToe.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -390,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				774DB5632521AB5300AA1FEF /* ReplaceGreatestElement.swift in Sources */,
+				7795880D256EB78000C132CA /* PascalTriangle.swift in Sources */,
 				77A92391254ABA2B00648A2D /* CountCharacters.swift in Sources */,
 				77952F822520606B0064C51C /* main.swift in Sources */,
 				7799069125535CAF00C1914F /* FindSpecialInteger.swift in Sources */,
@@ -428,6 +438,7 @@
 				7713105F254C4A9D0025821C /* TrimMean.swift in Sources */,
 				770D923B2540DFC2006FCCA9 /* CanMakeArithmaticProgression.swift in Sources */,
 				77CB1DB6253AE4EA00C1A4CF /* XORArray.swift in Sources */,
+				775D96FB256F05760031386A /* TicTacToe.swift in Sources */,
 				77B9746625259DA2002E9106 /* SortArrayByParity.swift in Sources */,
 				77BF28F4255EE10300B6C2F2 /* DistanceBetweenBusStops.swift in Sources */,
 				77E2DC0425500942002B74F7 /* SpecialArray.swift in Sources */,
@@ -447,6 +458,7 @@
 				77AC1AA0255A7FE30055C852 /* MostVisited.swift in Sources */,
 				7799068A25532AD200C1914F /* SumEvenAfterQueries.swift in Sources */,
 				77952F892520829F0064C51C /* ValidMountainArray.swift in Sources */,
+				775D96F8256EFE1C0031386A /* FIndKthPositive.swift in Sources */,
 				77893AAE255D58D600948177 /* TwoSum.swift in Sources */,
 				779C1FB12534617F009B20BC /* LongestPallindromicSubstring.swift in Sources */,
 				77418E412536E92D002BD78D /* ShuffleArray.swift in Sources */,

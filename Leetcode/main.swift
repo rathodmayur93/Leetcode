@@ -80,12 +80,15 @@ enum Operations : String {
     case twoSum
     case distanceBetweenBusStop
     case findShortestSubArray
+    case pascalTriangle
+    case findKthPositive
+    case ticTacToe
     //MARK:- String Problems Enum
     //MARK: Easy
     case balancedString
 }
 
-var currentOperation : Operations = .findShortestSubArray
+var currentOperation : Operations = .ticTacToe
 
 switch currentOperation {
 case .mountainArray:
@@ -232,6 +235,12 @@ case .distanceBetweenBusStop:
     ArrayMain().distanceBetweenBusStop()
 case .findShortestSubArray:
     ArrayMain().findShortestSubArray()
+case .pascalTriangle:
+    ArrayMain().pascalTriangle()
+case .findKthPositive:
+    ArrayMain().findKthPositive()
+case .ticTacToe:
+    ArrayMain().ticTacToeWinner()
 //MARK:- String Problems Functions
 //MARK: Easy
 case .balancedString:

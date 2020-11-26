@@ -428,4 +428,20 @@ struct ArrayMain {
         let nums2 = [1,2,2,3,1,4,2]
         FindShortestSubArray().findShortestSubArray(nums2)
     }
+    
+    func pascalTriangle(){
+        let num = 5
+        PascalTriangle().generate(num)
+    }
+    
+    func findKthPositive(){
+        let arr = [2,3,4,7,11], k = 5
+        let arr2 = [1,2,3,4], k2 = 2
+        FindKthPoitive().findKthPositive(arr2, k2)
+    }
+    
+    func ticTacToeWinner(){
+        let moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]
+        TicTacToe().tictactoe(moves)
+    }
 }
