@@ -83,12 +83,16 @@ enum Operations : String {
     case pascalTriangle
     case findKthPositive
     case ticTacToe
+    case missingNo
+    case imageSmoother
+    case pascalRow
+    case maxWealth
     //MARK:- String Problems Enum
     //MARK: Easy
     case balancedString
 }
 
-var currentOperation : Operations = .ticTacToe
+var currentOperation : Operations = .maxWealth
 
 switch currentOperation {
 case .mountainArray:
@@ -241,6 +245,14 @@ case .findKthPositive:
     ArrayMain().findKthPositive()
 case .ticTacToe:
     ArrayMain().ticTacToeWinner()
+case .missingNo:
+    ArrayMain().missinNumber()
+case .imageSmoother:
+    ArrayMain().imageSmoother()
+case .pascalRow:
+    ArrayMain().pascalRow()
+case .maxWealth:
+    ArrayMain().maximumWealth()
 //MARK:- String Problems Functions
 //MARK: Easy
 case .balancedString:

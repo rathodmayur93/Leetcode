@@ -36,16 +36,7 @@ struct MaxProfit{
         var sell = 0
         
         for i in 0..<(prices.count - 1){
-            if(prices[i] > prices[i + 1]){
-                buy = prices[i + 1]
-            }else{
-                buy = prices[i]
-            }
-            
-            if(prices[i] < prices[i + 1]){
-                sell = prices[i + 1]
-                max += sell - buy
-            }
+           
         }
         print(max)
     }
