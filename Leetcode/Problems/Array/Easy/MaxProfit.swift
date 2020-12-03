@@ -31,13 +31,42 @@ import Foundation
 struct MaxProfit{
     
     func maxProfit(_ prices: [Int]) {
-        var max = 0
-        var buy = 0
-        var sell = 0
+        var maxProfit = Int.max
+        var n = prices.count
         
-        for i in 0..<(prices.count - 1){
-           
+        for i in 0..<n{
+            for j in i..<n{
+                if(i != j){
+                    let diff = prices[i] - prices[j]
+                    maxProfit = min(maxProfit, diff)
+                }
+            }
         }
-        print(max)
+        
+        if(maxProfit < 0){
+            print(abs(maxProfit))
+        }else{
+            print(0)
+        }
+    }
+    
+    func maxProfit2(_ prices: [Int]){
+        
+        if (prices.count == 0) {
+            print(0)
+        }
+        
+        var buy = prices[0]
+        var profit = 0
+        
+        for price in prices{
+            if(price < buy){
+                buy = price
+            }else if(price - buy > profit) {
+                profit = price - buy
+            }
+        }
+        
+        print(profit)
     }
 }

@@ -19,6 +19,8 @@
 		77131065254CAA8F0025821C /* CountLargestGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77131064254CAA8F0025821C /* CountLargestGroup.swift */; };
 		77131068254CBE0A0025821C /* MinStartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77131067254CBE0A0025821C /* MinStartValue.swift */; };
 		7714F37E256DB561002ED0EC /* FindShortestSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7714F37D256DB561002ED0EC /* FindShortestSubArray.swift */; };
+		77165BDE2577EE3800336274 /* MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77165BDD2577EE3800336274 /* MinCostClimbingStairs.swift */; };
+		77165BE12577F13800336274 /* LargeGroupPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77165BE02577F13800336274 /* LargeGroupPositions.swift */; };
 		7717F3712537347F002E4D5F /* MaximumNestingDepthOfParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717F3702537347F002E4D5F /* MaximumNestingDepthOfParentheses.swift */; };
 		7717F37425374116002E4D5F /* StepsToReduceNumberToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717F37325374116002E4D5F /* StepsToReduceNumberToZero.swift */; };
 		7717F37725374631002E4D5F /* ShuffleString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717F37625374631002E4D5F /* ShuffleString.swift */; };
@@ -116,6 +118,8 @@
 		77131064254CAA8F0025821C /* CountLargestGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountLargestGroup.swift; sourceTree = "<group>"; };
 		77131067254CBE0A0025821C /* MinStartValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStartValue.swift; sourceTree = "<group>"; };
 		7714F37D256DB561002ED0EC /* FindShortestSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindShortestSubArray.swift; sourceTree = "<group>"; };
+		77165BDD2577EE3800336274 /* MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairs.swift; sourceTree = "<group>"; };
+		77165BE02577F13800336274 /* LargeGroupPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeGroupPositions.swift; sourceTree = "<group>"; };
 		7717F3702537347F002E4D5F /* MaximumNestingDepthOfParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumNestingDepthOfParentheses.swift; sourceTree = "<group>"; };
 		7717F37325374116002E4D5F /* StepsToReduceNumberToZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsToReduceNumberToZero.swift; sourceTree = "<group>"; };
 		7717F37625374631002E4D5F /* ShuffleString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleString.swift; sourceTree = "<group>"; };
@@ -349,6 +353,8 @@
 				7740E96425710BEA0071B1AA /* ImageSmoother.swift */,
 				77AA45EF2576A180006C01F1 /* PascalTriangleRow.swift */,
 				77C58F342576F13500BFC237 /* MaximumWealth.swift */,
+				77165BDD2577EE3800336274 /* MinCostClimbingStairs.swift */,
+				77165BE02577F13800336274 /* LargeGroupPositions.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -434,6 +440,7 @@
 				7787424B2550AC17007D1343 /* SlowestKey.swift in Sources */,
 				77672D9D253EEFC400894AD2 /* FlipImageMatrix.swift in Sources */,
 				77131062254C836B0025821C /* ToeplitzMatrix.swift in Sources */,
+				77165BE12577F13800336274 /* LargeGroupPositions.swift in Sources */,
 				77964903254001370075C3D6 /* DiscountPrice.swift in Sources */,
 				7717F37425374116002E4D5F /* StepsToReduceNumberToZero.swift in Sources */,
 				7738D0B2252F4AB700137FD0 /* LongestSubstring.swift in Sources */,
@@ -492,6 +499,7 @@
 				777F0E5E253C24CA0080ACB4 /* SumOfOddLengthSubArray.swift in Sources */,
 				7712D3332542DA7100A79E1A /* StringMain.swift in Sources */,
 				7714F37E256DB561002ED0EC /* FindShortestSubArray.swift in Sources */,
+				77165BDE2577EE3800336274 /* MinCostClimbingStairs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

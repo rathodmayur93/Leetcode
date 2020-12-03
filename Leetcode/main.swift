@@ -87,12 +87,14 @@ enum Operations : String {
     case imageSmoother
     case pascalRow
     case maxWealth
+    case minCostClimbingStairs
+    case largeGroupPositions
     //MARK:- String Problems Enum
     //MARK: Easy
     case balancedString
 }
 
-var currentOperation : Operations = .maxWealth
+var currentOperation : Operations = .largeGroupPositions
 
 switch currentOperation {
 case .mountainArray:
@@ -253,6 +255,10 @@ case .pascalRow:
     ArrayMain().pascalRow()
 case .maxWealth:
     ArrayMain().maximumWealth()
+case .minCostClimbingStairs:
+    ArrayMain().minCostClimbingStairs()
+case .largeGroupPositions:
+    ArrayMain().largeGroupPosition()
 //MARK:- String Problems Functions
 //MARK: Easy
 case .balancedString:

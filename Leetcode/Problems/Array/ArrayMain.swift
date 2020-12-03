@@ -387,7 +387,7 @@ struct ArrayMain {
         let arr = [7,1,5,3,6,4]
         let arr2 = [1,2,3,4,5]
         let arr3 = [7,6,4,3,1]
-        MaxProfit().maxProfit(arr3)
+        MaxProfit().maxProfit2(arr3)
     }
     
     func arrayRankTransformed(){
@@ -470,5 +470,18 @@ struct ArrayMain {
     func maximumWealth(){
         let num = [[1,2,3],[3,2,1]]
         MaximumWealth().maximumWealth(num)
+    }
+    
+    func minCostClimbingStairs(){
+        let cost = [10, 15, 20]
+        MinCostClimbingStairs().minCostClimbingStairs(cost)
+    }
+    
+    func largeGroupPosition(){
+        let s = "abbxxxxzzy"
+        let s2 = "abcdddeeeeaabbbcd" // [[3,5],[6,9],[12,14]]
+        let s3 = "abc"
+        let s4 = "aaa"
+        LargeGroupPositions().largeGroupPositions(s)
     }
 }
