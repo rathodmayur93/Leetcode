@@ -472,16 +472,26 @@ struct ArrayMain {
         MaximumWealth().maximumWealth(num)
     }
     
-    func minCostClimbingStairs(){
-        let cost = [10, 15, 20]
-        MinCostClimbingStairs().minCostClimbingStairs(cost)
-    }
-    
     func largeGroupPosition(){
         let s = "abbxxxxzzy"
         let s2 = "abcdddeeeeaabbbcd" // [[3,5],[6,9],[12,14]]
         let s3 = "abc"
         let s4 = "aaa"
         LargeGroupPositions().largeGroupPositions(s)
+    }
+    
+    func minCostClimbingStairs(){
+        let cost = [10, 15, 20]
+        let cost2 = [1, 100, 1, 1, 1, 100, 1, 1, 100, 1]
+        MinCostClimbingStairs().minCostClimbingStairs(cost2)
+    }
+    
+    func canThreeParrtsEqualSum(){
+        let A = [0,2,1,-6,6,-7,9,1,2,0,1]
+        let A2 = [0,2,1,-6,6,7,9,-1,2,0,1]
+        let A3 = [6,1,1,13,-1,0,-10,20]
+        let A4 = [10,-10,10,-10,10,-10,10,-10]
+        let A5 = [1,-1,1,-1]
+        CanThreePartsEqualSum().canThreePartsEqualSum(A5)
     }
 }

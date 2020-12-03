@@ -21,6 +21,7 @@
 		7714F37E256DB561002ED0EC /* FindShortestSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7714F37D256DB561002ED0EC /* FindShortestSubArray.swift */; };
 		77165BDE2577EE3800336274 /* MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77165BDD2577EE3800336274 /* MinCostClimbingStairs.swift */; };
 		77165BE12577F13800336274 /* LargeGroupPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77165BE02577F13800336274 /* LargeGroupPositions.swift */; };
+		7716CDE52578E448006A3ACC /* CanThreePartsEqualSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7716CDE42578E448006A3ACC /* CanThreePartsEqualSum.swift */; };
 		7717F3712537347F002E4D5F /* MaximumNestingDepthOfParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717F3702537347F002E4D5F /* MaximumNestingDepthOfParentheses.swift */; };
 		7717F37425374116002E4D5F /* StepsToReduceNumberToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717F37325374116002E4D5F /* StepsToReduceNumberToZero.swift */; };
 		7717F37725374631002E4D5F /* ShuffleString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717F37625374631002E4D5F /* ShuffleString.swift */; };
@@ -120,6 +121,7 @@
 		7714F37D256DB561002ED0EC /* FindShortestSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindShortestSubArray.swift; sourceTree = "<group>"; };
 		77165BDD2577EE3800336274 /* MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairs.swift; sourceTree = "<group>"; };
 		77165BE02577F13800336274 /* LargeGroupPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeGroupPositions.swift; sourceTree = "<group>"; };
+		7716CDE42578E448006A3ACC /* CanThreePartsEqualSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanThreePartsEqualSum.swift; sourceTree = "<group>"; };
 		7717F3702537347F002E4D5F /* MaximumNestingDepthOfParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumNestingDepthOfParentheses.swift; sourceTree = "<group>"; };
 		7717F37325374116002E4D5F /* StepsToReduceNumberToZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsToReduceNumberToZero.swift; sourceTree = "<group>"; };
 		7717F37625374631002E4D5F /* ShuffleString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleString.swift; sourceTree = "<group>"; };
@@ -355,6 +357,7 @@
 				77C58F342576F13500BFC237 /* MaximumWealth.swift */,
 				77165BDD2577EE3800336274 /* MinCostClimbingStairs.swift */,
 				77165BE02577F13800336274 /* LargeGroupPositions.swift */,
+				7716CDE42578E448006A3ACC /* CanThreePartsEqualSum.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -499,6 +502,7 @@
 				777F0E5E253C24CA0080ACB4 /* SumOfOddLengthSubArray.swift in Sources */,
 				7712D3332542DA7100A79E1A /* StringMain.swift in Sources */,
 				7714F37E256DB561002ED0EC /* FindShortestSubArray.swift in Sources */,
+				7716CDE52578E448006A3ACC /* CanThreePartsEqualSum.swift in Sources */,
 				77165BDE2577EE3800336274 /* MinCostClimbingStairs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
