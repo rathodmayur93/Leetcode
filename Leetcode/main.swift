@@ -90,12 +90,15 @@ enum Operations : String {
     case minCostClimbingStairs
     case largeGroupPositions
     case canThreePartEqualSum
+    case isOneBitCharacter
+    case divideBy5
+    case maxSubArray
     //MARK:- String Problems Enum
     //MARK: Easy
     case balancedString
 }
 
-var currentOperation : Operations = .canThreePartEqualSum
+var currentOperation : Operations = .maxSubArray
 
 switch currentOperation {
 case .mountainArray:
@@ -262,6 +265,12 @@ case .largeGroupPositions:
     ArrayMain().largeGroupPosition()
 case .canThreePartEqualSum:
     ArrayMain().canThreeParrtsEqualSum()
+case .isOneBitCharacter:
+    ArrayMain().isOneBitCharacter()
+case .divideBy5:
+    ArrayMain().prefixesDivBy5()
+case .maxSubArray:
+    ArrayMain().maxSubArray()
 //MARK:- String Problems Functions
 //MARK: Easy
 case .balancedString:

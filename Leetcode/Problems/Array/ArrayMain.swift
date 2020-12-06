@@ -494,4 +494,21 @@ struct ArrayMain {
         let A5 = [1,-1,1,-1]
         CanThreePartsEqualSum().canThreePartsEqualSum(A5)
     }
+    
+    func isOneBitCharacter() {
+        let bits = [1, 0, 0]
+        let bits2 = [1, 1, 1, 0]
+        IsOneBitCharacter().isOneBitCharacter(bits2)
+    }
+    
+    func prefixesDivBy5(){
+        let input = [0,1,1]
+        let input2 = [1,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0]
+        PrefixesDivBy5().prefixesDivBy5(input2)
+    }
+    
+    func maxSubArray(){
+        let nums = [-2,1,-3,4,-1,2,1,-5,4]
+        MaxSubArray().maxSubArray(nums)
+    }
 }
