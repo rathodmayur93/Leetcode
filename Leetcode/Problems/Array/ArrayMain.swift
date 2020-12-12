@@ -511,4 +511,94 @@ struct ArrayMain {
         let nums = [-2,1,-3,4,-1,2,1,-5,4]
         MaxSubArray().maxSubArray(nums)
     }
+    
+    func maximumProduct(){
+        let nums = [1,2,3]
+        let nums2 = [1,2,3,4]
+        let nums3 = [-1,-2,-3]
+        let nums4 = [-100,-2,-3,1]
+        let nums5 = [-1000,-1000,1000]
+        let nums6 = [-1,-2,-3,-4]
+        MaximumProduct().maximumProduct(nums6)
+    }
+    
+    func numEquivDominoPairs() {
+        let dominoes = [[1,2],[2,1],[3,4],[5,6]]
+        let dominoes2 = [[1,2],[1,2],[1,1],[1,2],[2,2]]
+        let dominoes3 = [[1,1],[2,2],[1,1],[1,2],[1,2],[1,1]]
+        let dominoes4 = [[2,1],[1,2],[1,2],[1,2],[2,1],[1,1],[1,2],[2,2]]
+        NumEquivDominoPairs().numEquivDominoPairs(dominoes)
+    }
+    
+    func findLengthOfLCIS(){
+        let nums = [1,3,5,4,7]
+        let nums2 = [2,2,2,2,2]
+        let nums3 = [1,2,3,4,5,6,7]
+        FindLengthOfLCIS().findLengthOfLCIS(nums)
+    }
+    
+    func pivotIndex(){
+        let nums = [1,7,3,6,5,6]
+        let nums2 = [1,2,3]
+        PivotIndex().pivotIndex2(nums2)
+    }
+    
+    func addToArrayForm(){
+        let A = [1,2,0,0], K = 34
+        let A2 = [0], K2 = 23
+        let A3 = [0], K3 = 0
+        let A4 = [1,2,6,3,0,7,1,7,1,9,7,5,6,6,4,4,0,0,6,3], K4 = 516
+        let A5 = [2,1,5], K5 = 806
+        let A6 = [9,9,9,9,9,9,9,9,9,9], K6 = 1
+        let A7 = [6], K7 = 809
+        AddToArrayForm().addToArrayForm(A7, K7)
+    }
+    
+    func checkStraightLine(){
+        let coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]
+        let coordinates2 = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
+        let coordinates3 = [[0,0],[0,1],[0,-1]]
+        let coordinates4 = [[2,1],[4,2],[6,3]]
+        CheckStraightLine().checkStraightLine(coordinates3)
+    }
+    
+    func searchInsert() {
+        let nums = [1,3,5,6], target = 5
+        let nums2 = [1,3,5,6], target2 = 2
+        let nums3 = [1,3,5,6], target3 = 7
+        let nums4 = [1,3,5,6], target4 = 0
+        let nums5 = [1], target5 = 0
+        SearchInsert().searchInsert(nums5, target5)
+    }
+    
+    func plusOne(){
+        let digits = [1,2,3]
+        let digits2 = [4,3,2,1]
+        let digits3 = [0]
+        let digits4 = [9]
+        PlusOne().plusOne(digits4)
+    }
+    
+    func dominantIndex(){
+        let nums = [3, 6, 1, 0]
+        let nums2 = [1, 2, 3, 4]
+        DominantIndex().dominantIndex(nums)
+    }
+    
+    func containsPattern(){
+        let arr = [1,2,4,4,4,4], m = 1, k = 3
+        let arr2 = [1,2,1,2,1,1,1,3], m2 = 2, k2 = 2
+        let arr3 = [1,2,1,2,1,3], m3 = 2, k3 = 3
+        let arr4 = [1,2,3,1,2], m4 = 2, k4 = 2
+        let arr5 = [2,2,1,2,2,1,1,1,2,1], m5 = 2, k5 = 2
+        let arr6 = [3,2,2,1,2,2,1,1,1,2,3,2,2], m6 = 3, k6 = 2
+        let arr7 = [2,2,2,2], m7 = 2, k7 = 3
+        ContainsPattern().containsPattern2(arr7, m7, k7)
+    }
+    
+    func findMaxAverage(){
+        let arr = [1,12,-5,-6,50,3], k = 4
+        let arr2 = [8860,-853,6534,4477,-4589,8646,-6155,-5577,-1656,-5779,-2619,-8604,-1358,-8009,4983,7063,3104,-1560,4080,2763,5616,-2375,2848,1394,-7173,-5225,-8244,-809,8025,-4072,-4391,-9579,1407,6700,2421,-6685,5481,-1732,-8892,-6645,3077,3287,-4149,8701,-4393,-9070,-1777,2237,-3253,-506,-4931,-7366,-8132,5406,-6300,-275,-1908,67,3569,1433,-7262,-437,8303,4498,-379,3054,-6285,4203,6908,4433,3077,2288,9733,-8067,3007,9725,9669,1362,-2561,-4225,5442,-9006,-429,160,-9234,-4444,3586,-5711,-9506,-79,-4418,-4348,-5891], k2 = 93
+        FindMaxAverage().findMaxAverage(arr2, k2)
+    }
 }

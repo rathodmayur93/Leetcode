@@ -93,12 +93,23 @@ enum Operations : String {
     case isOneBitCharacter
     case divideBy5
     case maxSubArray
+    case maxProd
+    case numEquivDominoPairs
+    case findLengthOfLCIS
+    case pivotIndex
+    case addToArrayForm
+    case checkStraightLine
+    case searchInsert
+    case plusOne
+    case dominantIndex
+    case containsPattern
+    case findMaxAverage
     //MARK:- String Problems Enum
     //MARK: Easy
     case balancedString
 }
 
-var currentOperation : Operations = .maxSubArray
+var currentOperation : Operations = .findMaxAverage
 
 switch currentOperation {
 case .mountainArray:
@@ -271,6 +282,28 @@ case .divideBy5:
     ArrayMain().prefixesDivBy5()
 case .maxSubArray:
     ArrayMain().maxSubArray()
+case .maxProd:
+    ArrayMain().maximumProduct()
+case .numEquivDominoPairs:
+    ArrayMain().numEquivDominoPairs()
+case .findLengthOfLCIS:
+    ArrayMain().findLengthOfLCIS()
+case .pivotIndex:
+    ArrayMain().pivotIndex()
+case .addToArrayForm:
+    ArrayMain().addToArrayForm()
+case .checkStraightLine:
+    ArrayMain().checkStraightLine()
+case .searchInsert:
+    ArrayMain().searchInsert()
+case .plusOne:
+    ArrayMain().plusOne()
+case .dominantIndex:
+    ArrayMain().dominantIndex()
+case .containsPattern:
+    ArrayMain().containsPattern()
+case .findMaxAverage:
+    ArrayMain().findMaxAverage()
 //MARK:- String Problems Functions
 //MARK: Easy
 case .balancedString:
