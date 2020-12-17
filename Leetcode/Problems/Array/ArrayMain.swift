@@ -601,4 +601,36 @@ struct ArrayMain {
         let arr2 = [8860,-853,6534,4477,-4589,8646,-6155,-5577,-1656,-5779,-2619,-8604,-1358,-8009,4983,7063,3104,-1560,4080,2763,5616,-2375,2848,1394,-7173,-5225,-8244,-809,8025,-4072,-4391,-9579,1407,6700,2421,-6685,5481,-1732,-8892,-6645,3077,3287,-4149,8701,-4393,-9070,-1777,2237,-3253,-506,-4931,-7366,-8132,5406,-6300,-275,-1908,67,3569,1433,-7262,-437,8303,4498,-379,3054,-6285,4203,6908,4433,3077,2288,9733,-8067,3007,9725,9669,1362,-2561,-4225,5442,-9006,-429,160,-9234,-4444,3586,-5711,-9506,-79,-4418,-4348,-5891], k2 = 93
         FindMaxAverage().findMaxAverage(arr2, k2)
     }
+    
+    func summaryRanges(){
+        let nums = [0,1,2,4,5,7]
+        let nums2 = [0,2,3,4,6,8,9]
+        SummaryRanges().summaryRanges(nums)
+    }
+    
+    func containsNearbyDuplicate(){
+        let nums = [1,2,3,1], k = 3
+        let nums2 = [1,0,1,1], k2 = 1
+        let nums3 = [1,2,3,1,2,3], k3 = 2
+        let nums4 = [4,1,2,3,1,5], k4 = 3
+        let nums5 = [99,99], k5 = 2
+        let nums6 = [1,2,3,4,5,6,7,8,9,10], k6 = 15
+        let nums7 = [1,2,1], k7 = 0
+        ContainsNearbyDuplicate().containsNearbyDuplicate(nums5, k5)
+    }
+    
+    func hasGroupsSizeX(){
+        let deck = [1,2,3,4,4,3,2,1]
+        let deck2 = [1,1,1,2,2,2,3,3]
+        let deck3 = [1]
+        let deck4 = [1,1]
+        let deck5 = [1,1,2,2,2,2]
+        let deck6 = [0,0,0,1,1,1,2,2,2]
+        HasGroupsSizeX().hasGroupsSizeX(deck6)
+    }
+    
+    func canPlaceFlowers(){
+        let flowerbed = [1,0,0,0,1], n = 1
+        CanPlaceFlowers().canPlaceFlowers(flowerbed, 1)
+    }
 }

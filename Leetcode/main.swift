@@ -104,12 +104,16 @@ enum Operations : String {
     case dominantIndex
     case containsPattern
     case findMaxAverage
+    case summaryRanges
+    case containNearybyDuplicate
+    case hasGroupsSizeX
+    case canPlaceFlowers
     //MARK:- String Problems Enum
     //MARK: Easy
     case balancedString
 }
 
-var currentOperation : Operations = .findMaxAverage
+var currentOperation : Operations = .canPlaceFlowers
 
 switch currentOperation {
 case .mountainArray:
@@ -304,6 +308,14 @@ case .containsPattern:
     ArrayMain().containsPattern()
 case .findMaxAverage:
     ArrayMain().findMaxAverage()
+case .summaryRanges:
+    ArrayMain().summaryRanges()
+case .containNearybyDuplicate:
+    ArrayMain().containsNearbyDuplicate()
+case .hasGroupsSizeX:
+    ArrayMain().hasGroupsSizeX()
+case .canPlaceFlowers:
+    ArrayMain().canPlaceFlowers()
 //MARK:- String Problems Functions
 //MARK: Easy
 case .balancedString:
