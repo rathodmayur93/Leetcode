@@ -416,6 +416,7 @@
 				77B6BE63258A0A2300F24206 /* SummaryRanges.swift */,
 				77B6BE66258A1AA000F24206 /* ContainsNearbyDuplicate.swift */,
 				77B6BE69258A360700F24206 /* HasGroupsSizeX.swift */,
+				77B6BE6C258A69B900F24206 /* CanPlaceFlowers.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -425,7 +426,6 @@
 			children = (
 				77D4CD9E257E4DAC00A2766E /* PrefixesDivBy5Rev.swift */,
 				77D4CD9B257E4D7100A2766E /* MaxSubArrayRRev.swift */,
-				77B6BE6C258A69B900F24206 /* CanPlaceFlowers.swift */,
 			);
 			path = Revision;
 			sourceTree = "<group>";

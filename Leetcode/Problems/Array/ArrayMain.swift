@@ -631,6 +631,9 @@ struct ArrayMain {
     
     func canPlaceFlowers(){
         let flowerbed = [1,0,0,0,1], n = 1
-        CanPlaceFlowers().canPlaceFlowers(flowerbed, 1)
+        let flowerbed2 = [1,0,0,0,0,1], n2 = 2
+        let flowerbed3 = [1,0,0,0,1,0,0], n3 = 2
+        let flowerbed4 = [0,0,1,0,0], n4 = 2
+        CanPlaceFlowers().canPlaceFlowers(flowerbed, n)
     }
 }
