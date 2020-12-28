@@ -108,12 +108,21 @@ enum Operations : String {
     case containNearybyDuplicate
     case hasGroupsSizeX
     case canPlaceFlowers
+    case canFormArray
     //MARK:- String Problems Enum
     //MARK: Easy
     case balancedString
+    case interpret
+    case reverseString
+    case countConsistentStrings
+    case arrayStringsAreEqual
+    case uniqueMorseRepresentations
+    case freqAlphabets
+    //MARK: - Top 100 Interview Question
+    case paypalOne
 }
 
-var currentOperation : Operations = .canPlaceFlowers
+var currentOperation : Operations = .paypalOne
 
 switch currentOperation {
 case .mountainArray:
@@ -316,11 +325,30 @@ case .hasGroupsSizeX:
     ArrayMain().hasGroupsSizeX()
 case .canPlaceFlowers:
     ArrayMain().canPlaceFlowers()
+case .canFormArray:
+    ArrayMain().canFormArray()
 //MARK:- String Problems Functions
 //MARK: Easy
 case .balancedString:
     StringMain().balanceString()
+case .interpret:
+    StringMain().interpret()
+case .reverseString:
+    StringMain().reverseString()
+case .countConsistentStrings:
+    StringMain().countConsistentStrings()
+case .arrayStringsAreEqual:
+    StringMain().arrayStringsAreEqual()
+case .uniqueMorseRepresentations:
+    StringMain().uniqueMorseRepresentations()
+case .freqAlphabets:
+    StringMain().freqAlphabets()
+case .paypalOne:
+    PaypalProblemOne().solveOne()
 }
+//MARK:- 100 Interview Question
+//MARK: Easy
+
 
 func executeMountainArray(){
     

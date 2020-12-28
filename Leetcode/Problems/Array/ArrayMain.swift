@@ -509,7 +509,8 @@ struct ArrayMain {
     
     func maxSubArray(){
         let nums = [-2,1,-3,4,-1,2,1,-5,4]
-        MaxSubArray().maxSubArray(nums)
+        let nums2 = [-3, -1, 4]
+        MaxSubArray().maxSubArray(nums2)
     }
     
     func maximumProduct(){
@@ -635,5 +636,13 @@ struct ArrayMain {
         let flowerbed3 = [1,0,0,0,1,0,0], n3 = 2
         let flowerbed4 = [0,0,1,0,0], n4 = 2
         CanPlaceFlowers().canPlaceFlowers(flowerbed, n)
+    }
+    
+    func canFormArray(){
+        let arr = [85], pieces = [[85]]
+        let arr2 = [91,4,64,78], pieces2 = [[78],[4,64],[91]]
+        let arr3 = [49,18,16], pieces3 = [[16,18,49]]
+        let arr4 = [15,88], pieces4 = [[88],[15]]
+        CanFormArray().canFormArray(arr3, pieces3)
     }
 }
